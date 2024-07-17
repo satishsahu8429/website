@@ -1,0 +1,45 @@
+.blog_section {
+  padding: 60px 0;
+}
+.text_dots {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.blog_section .card {
+  border: none;
+  height: 100%;
+  padding: 10px;
+  border-radius: 0 !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.blog_section .card .card-body p {
+  display: block;
+  display: -webkit-box;
+  font-size: 16px;
+}
+
+.blog_section .card h5 {
+  color: #000;
+}
+
+.blog_section .card .blog_img {
+  overflow: hidden;
+  max-height: 240px;
+  height: 100%;
+}
+
+.blog_section .card .blog_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog_section .card .blog_img img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease all;
+}

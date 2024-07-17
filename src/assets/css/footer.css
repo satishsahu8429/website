@@ -1,0 +1,76 @@
+/* ==========footer_section Start ======= */
+
+.news_letter_section .container {
+  background-image: linear-gradient(#f44a44, #fd8a49);
+  padding: 30px 20px;
+  position: relative;
+
+  margin-bottom: -30px;
+}
+
+.email_newsletter p .fa {
+  font-size: 35px;
+  color: white;
+}
+
+.news_letter_section input {
+  outline: none;
+  border: none;
+  padding: 8px;
+}
+
+.news_letter_section input::placeholder {
+  font-size: 12px;
+}
+
+.news_letter_section button {
+  border: none;
+  background-color: #101516;
+  color: white;
+  font-size: 12px;
+  padding: 10px 30px;
+}
+.footer_section {
+  background-color: #212445;
+  padding: 50px 0 30px 0;
+}
+
+.foot-items h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.foot-items h2::after {
+  content: "";
+  width: 50px;
+  background-color: #f44a44;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.foot-items ul li a {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+
+.foot-items ul li a:hover {
+  color: #f44a44;
+  transition: 0.3s ease all;
+}
+
+.copy_right {
+  background-color: #2124459c;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .news_letter_section button {
+    padding: 10px;
+  }
+}

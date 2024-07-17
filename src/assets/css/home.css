@@ -1,0 +1,78 @@
+.marketing_section {
+  padding: 50px 0px;
+}
+
+.marketing_section .inner_left span {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.marketing_section .inner_left h2 b {
+  color: #f44a44;
+}
+
+.marketing_section .inner_left h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  padding: 15px 0;
+  font-weight: 600;
+  max-width: 400px;
+  width: 100%;
+}
+
+.marketing_section .inner_left p {
+  color: #181515b3;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.marketing_section .card {
+  padding: 15px;
+  border-radius: 10px;
+  border-bottom: 4px solid #f44a44;
+}
+
+.marketing_section .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s ease all;
+}
+
+.marketing_section .card h2 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #f44a44;
+}
+
+.marketing_section .card p {
+  font-weight: 400;
+  color: #00000091;
+  font-size: 14px;
+}
+
+.marketing_section .card .fa {
+  font-size: 30px;
+  color: #f44a44;
+}
+
+@media screen and (max-width: 991px) {
+  .marketing_section .inner_left {
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .marketing_section .inner_left span {
+    font-size: 35px;
+  }
+  .marketing_section .inner_left h2 {
+    font-size: 22px;
+  }
+  .marketing_section .inner_left a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .marketing_section .inner_left p {
+    font-size: 16px;
+  }
+}

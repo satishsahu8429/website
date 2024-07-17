@@ -1,0 +1,200 @@
+.content_wrapper {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.active-col {
+  border: 3px solid lightgray;
+  background-color: white;
+}
+
+.active-col ul li {
+  border-bottom: 1px solid rgb(190, 186, 186);
+}
+
+.active-col ul li:last-child {
+  border-bottom: unset;
+}
+
+.content_wrapper .row {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 31px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #dbe7ef3d;
+}
+.content_wrapper .row .active-col {
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.content_wrapper h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+
+.content_wrapper .listing ul li {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.about_role_wrapper {
+  margin-top: 60px;
+}
+
+.about_role_wrapper .tab_section .tabs {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about_role_wrapper .tab_section .sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  border: 2px solid rgba(247, 234, 234, 0.6);
+  background-image: linear-gradient(#f44a44, #fd8a49) !important;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.about_role_wrapper .tab_section .tab-btn {
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 55px;
+  font-weight: 400;
+  background-color: unset;
+}
+
+.about_role_wrapper .tab_section .tab-btn-active {
+  font-weight: 600;
+  background-color: #b0eb93;
+  font-size: 18px;
+  background-color: white !important;
+}
+
+.about_role_wrapper .tab_section .tab-content {
+  display: flex;
+
+  display: none;
+}
+
+.about_role_wrapper .tab_section .tab-content-active {
+  display: block;
+  margin: 10px 15px;
+}
+
+.about_the_role .tab_title h3 {
+  color: #030303;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.about_the_role .tab_title p {
+  color: #3a3a3a;
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.about_txt p {
+  font-size: 16px;
+}
+
+.tab_container .about_heading {
+  color: #030303;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about_txt ul li {
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #3a3a3a;
+  font-weight: 400;
+}
+
+.listing.unsetlist ul li {
+  list-style-type: circle;
+}
+
+/* responsive css */
+
+@media screen and (max-width: 767px) {
+  .about_the_role .tab_title h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about_the_role .tab_title h3 {
+    font-size: 30px;
+  }
+
+  .about_the_role .tab_title p {
+    font-size: 20px;
+  }
+  .content_wrapper .row {
+    padding: 10px;
+  }
+  .content_wrapper .row .col {
+    padding: 15px;
+  }
+  .content_wrapper h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .content_wrapper .listing ul li {
+    font-size: 16px;
+  }
+  .about_role_wrapper .tab_section .tab-btn {
+    margin: unset;
+  }
+  .about_role_wrapper .tab_section .tab-btn-active {
+    font-size: 16px;
+  }
+  .about_role_wrapper .tab_section .tab-btn {
+    font-size: 16px;
+  }
+  .about_role_wrapper .tab_section .sidebar{
+
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about_the_role .tab_title p {
+    font-size: 16px;
+  }
+
+  .content_wrapper .row .active-col{
+    padding: 25px 15px;
+  }
+
+  .content_wrapper h2{
+
+    font-size: 18px;
+  }
+  .content_wrapper .listing ul li{
+
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}

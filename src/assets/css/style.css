@@ -1,0 +1,70 @@
+.navbar_btns a {
+  background-color: rgb(236, 159, 57);
+  padding: 10px 25px;
+  color: white;
+  border-radius: 56px;
+  font-weight: 500;
+  border: 4px solid rgb(240, 236, 236);
+}
+.navbar_btns a:hover {
+  background-color: rgb(223, 136, 22);
+  transition: 0.3s ease all;
+}
+
+.navbar_section {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  padding: 5px 0;
+}
+
+.navbar_section {
+  transition: padding-top 0.3s ease;
+}
+
+.scrolled .fixed-top {
+  background-color: white !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.navbar.fixed-top {
+  transition: padding-top 0.3s ease;
+}
+
+.fixed-top .navbar-brand {
+  z-index: 999;
+  color: #cc3c3c;
+}
+
+/* =========== Start Home Banner ============ */
+.banner_section {
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #12495f,
+    #487b7d,
+    #8bac9c,
+    #d6dec6
+  );
+  background-size: cover;
+  z-index: 2;
+  transition: all 0.3s ease-in;
+}
+.banner_section .header_img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+}
+.banner_section .header_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .banner_section .header_img {
+    position: unset;
+  }
+}
+
+/* ===========  Home Banner End ============ */

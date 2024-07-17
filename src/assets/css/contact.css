@@ -1,0 +1,84 @@
+.contact_section {
+  background: #eaefe8;
+  background: linear-gradient(135deg, #eaefe8b3, #bd56348a);
+  padding: 80px 0;
+}
+
+.form_container {
+  padding: 30px 0px;
+  margin-top: -120px;
+}
+
+.form_container .form-control {
+  border-bottom: 1px solid #ced4da !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black !important;
+}
+
+.form_container .form-control:focus {
+  color: #21252924;
+  background-color: #fff;
+  border-color: white;
+  box-shadow: 0 0 0 0.25rem rgba(247, 221, 207, 0.25);
+}
+
+.form_container textarea {
+
+  color: black;
+}
+.form_container input {
+  height: 60px !important;
+  color: black;
+}
+
+.form_box {
+  padding: 40px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+}
+
+.social_media {
+  background-color: rgb(41, 38, 38);
+  color: white;
+  padding: 40px 20px;
+  min-height: 100%;
+}
+
+.submit_btn button {
+  background-image: linear-gradient(#f44a44, #fd8a49) !important;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: white;
+}
+
+.social_media .fa {
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social_media ul li a {
+  font-size: 16px;
+  padding: 5px 0;
+  color: white;
+  font-weight: 400;
+}
+
+.social_media ul li a:hover,
+.social_media ul li .fa:hover {
+  color: lightblue;
+  transition: 0.3s ease all;
+}
+
+.social_media_icon .fa {
+  background-color: gray;
+}
