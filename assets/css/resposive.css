@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+  .header_section .custom_nav ul li a {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .header_section .custom_nav ul li a {
+    font-size: 18px;
+    color: #151515;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .our_collection .card h2 {
+    font-size: 16px;
+  }
+  .our_collection .card p {
+    font-size: 14px;
+    line-height: unset;
+  }
+
+  .header_section .navbar_btns img {
+    height: 25px;
+    width: 25px;
+  }
+  .footer_section p {
+    padding-top: 30px;
+    padding-bottom: unset;
+    font-size: 20px;
+  }
+
+  .top_compaines .card {
+    width: 30%;
+    margin: 0 10px;
+  }
+  .footer_section .foot_links ul li a {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .footer_section .copy_right p {
+    font-size: 14px;
+    line-height: unset;
+  }
+  .footer_section .copy_right p.policy a,
+  .footer_section .copy_right p span {
+    display: none;
+  }
+  .keep_touch_section {
+    margin-top: 40px;
+    padding: unset;
+  }
+  .keep_touch_section .sign_up input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our_collection .card h2 {
+    font-size: 12px;
+  }
+
+  .top_compaines .card {
+    width: 20%;
+  }
+  .footer_section .foot_links ul li a {
+    font-size: 16px;
+  }
+
+  .keep_touch_section p {
+    font-size: 20px;
+    line-height: unset;
+    margin-bottom: unset;
+  }
+
+  .our_collection {
+    padding-bottom: 70px;
+    margin-top: 119px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .top_compaines .card {
+    width: 18%;
+  }
+  .footer_section .copy_right p {
+    font-size: 12px;
+  }
+
+  .keep_touch_section .sign_up input::placeholder {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .our_collection .card h2 {
+    font-size: 10px;
+  }
+  .header_section .navbar_btns img {
+    height: 20px;
+    width: 20px;
+}
+}
+@media screen and (max-width: 460px) {
+  .header_section .website_logo {
+    width: 150px;
+  }
+  .footer_section .foot_links ul li a {
+    font-size: 12px;
+    margin: 0 2px;
+  }
+  .footer_section p {
+    font-size: 16px;
+    line-height: unset;
+  }
+
+  .keep_touch_section p {
+    font-size: 15px;
+  }
+
+  .our_collection .card p {
+    font-size: 10px;
+  }
+}
